@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta -->
+    <title>Custom Chrome Extensions & Browser Automation | YOUR NAME</title>
+    <meta name="description" content="Custom Chrome extensions for SaaS feature replacement, browser automation, research workflows, and internal business tools.">
+    <link rel="canonical" href="https://YOUR_USERNAME.github.io/portfolio/">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Custom Chrome Extensions & Browser Automation | YOUR NAME">
+    <meta property="og:description" content="I turn repetitive browser workflows and unnecessary SaaS features into small, focused tools you own.">
+    <meta property="og:image" content="assets/og-image.png">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Custom Chrome Extensions & Browser Automation">
+    <meta name="twitter:description" content="I turn repetitive browser workflows and unnecessary SaaS features into small, focused tools you own.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Home">
+                <img src="assets/logo.svg" alt="Logo" width="32" height="32">
+                <span>YOUR NAME</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary nav-cta">Start a Project</a>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1 class="fade-in">Custom Chrome Extensions for the Workflows You Actually Need</h1>
+                <p class="hero-subtitle fade-in delay-1">I turn repetitive browser workflows and unnecessary SaaS features into small, focused tools you own.</p>
+                <p class="hero-subtitle fade-in delay-2">One-time development. Built around your workflow. No unnecessary dashboard, subscription, or features you will never use.</p>
+                <div class="hero-ctas fade-in delay-3">
+                    <a href="#contact" class="btn btn-primary">Tell Me What You Want to Automate</a>
+                    <a href="#work" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy / Positioning -->
+        <section id="philosophy" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title fade-in">You don't always need another SaaS subscription.</h2>
+                <p class="section-subtitle fade-in">Many tools are built to serve thousands of users, so they come with dozens of features, dashboards, accounts, integrations, and recurring costs.<br><br>But sometimes you only need three things.<br><br>I build focused Chrome extensions around those specific workflows — whether that means replacing a small part of an existing tool, automating repetitive browser work, or creating a private internal tool for your business.</p>
+                
+                <div class="comparison-grid">
+                    <div class="comparison-card saas fade-in">
+                        <h3>Traditional SaaS</h3>
+                        <ul>
+                            <li>Many features</li>
+                            <li>Monthly subscription</li>
+                            <li>Features you may never use</li>
+                            <li>Generic workflow</li>
+                        </ul>
+                    </div>
+                    <div class="comparison-card custom fade-in delay-1">
+                        <h3>Custom Extension</h3>
+                        <ul>
+                            <li>Only the required features</li>
+                            <li>Built around your workflow</li>
+                            <li>One-time development</li>
+                            <li>You own the finished tool</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="work" class="section">
+            <div class="container">
+                <p class="section-eyebrow fade-in">Proof of what I can build for clients</p>
+                <h2 class="section-title fade-in">Things I've Built</h2>
+                
+                <div class="portfolio-grid">
+                    <!-- Project 1: Etsy Researcher -->
+                    <article class="project-card fade-in">
+                        <div class="project-header">
+                            <span class="badge badge-warning">In Development</span>
+                            <h3>Etsy Product Researcher</h3>
+                            <p class="project-desc">A focused Etsy research tool designed around the parts of product research sellers actually use.</p>
+                        </div>
+                        <div class="project-mockup browser-window">
+                            <div class="browser-top"><span></span><span></span><span></span></div>
+                            <div class="browser-content">
+                                <!-- Placeholder for actual screenshot -->
+                                <div class="mockup-placeholder">Etsy Research UI Mockup</div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Current Features</h4>
+                            <ul class="feature-list">
+                                <li>Single-listing & bulk capture (up to 48 listings)</li>
+                                <li>Extracts title, price, currency, reviews, rating, shop, tags</li>
+                                <li>Local research table with sortable columns</li>
+                                <li>Live filtering by title/shop</li>
+                                <li>CSV export (respects current filters & sorts)</li>
+                            </ul>
+                            <p class="privacy-note"><strong>Privacy & Architecture:</strong> The extension reads the Etsy pages the user is already viewing and keeps research local rather than requiring a separate cloud dashboard.</p>
+                            <p class="future-note"><strong>Future planned:</strong> Product research, <em>estimated sales & revenue</em>, keyword research, trends, growth-rate analysis.</p>
+                            <p class="demonstrates"><strong>What this demonstrates:</strong> Browser data extraction · Local research UI · CSV workflows · Chrome extension architecture</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary">View Etsy Research Demo</a>
+                                <a href="#" class="text-link" target="_blank">GitHub Repository →</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Screenshot Annotator -->
+                    <article class="project-card fade-in">
+                        <div class="project-header">
+                            <span class="badge badge-success">Completed</span>
+                            <h3>Screenshot Annotator</h3>
+                            <p class="project-desc">A privacy-focused browser screenshot tool for capturing, annotating, and exporting screenshots without requiring an account or cloud backend.</p>
+                        </div>
+                        <div class="project-mockup browser-window">
+                            <div class="browser-top"><span></span><span></span><span></span></div>
+                            <div class="browser-content">
+                                <div class="mockup-placeholder">Screenshot Annotator UI Mockup</div>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <h4>Features</h4>
+                            <ul class="feature-list">
+                                <li>Screenshot capture, crop, arrows, highlights, blur, text</li>
+                                <li>Export capabilities</li>
+                                <li>Local processing</li>
+                                <li>No account required</li>
+                                <li>No cloud storage</li>
+                            </ul>
+                            <p class="privacy-note"><strong>100% local-first workflow.</strong> Evidence of ability to build polished, privacy-conscious browser tools.</p>
+                            <p class="demonstrates"><strong>What this demonstrates:</strong> Browser APIs · Image manipulation · Local-first architecture · Productivity UX</p>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-secondary">View Demo Video</a>
+                                <a href="#" class="text-link" target="_blank">GitHub Repository →</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="section-cta fade-in">
+                    <a href="#contact" class="btn btn-primary">Have a Similar Workflow?</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title fade-in">What I Can Build</h2>
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7L12 3L4 7M20 7L12 11M20 7V17L12 21M12 11L4 7M12 11V21M4 7V17L12 21"/></svg>
+                        </div>
+                        <h3>SaaS Feature Replacements</h3>
+                        <p>Need only a few features from an expensive SaaS product? I can build a focused Chrome extension around the workflow you actually use.</p>
+                    </div>
+                    <div class="service-card fade-in delay-1">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14H12L11 22L21 10H12L13 2Z"/></svg>
+                        </div>
+                        <h3>Browser Automation</h3>
+                        <p>Turn repetitive browser actions into a faster, simpler workflow. Includes data entry, copying between websites, research workflows, and repetitive form interactions.</p>
+                    </div>
+                    <div class="service-card fade-in delay-2">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <h3>Internal Business Tools</h3>
+                        <p>Build private browser tools designed specifically for your team's workflow. Includes internal research tools, data collection, and custom interfaces.</p>
+                    </div>
+                    <div class="service-card fade-in delay-3">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+                        </div>
+                        <h3>Research & Productivity</h3>
+                        <p>Lightweight browser tools for research, comparison, annotation, extraction, organization, and productivity.</p>
+                    </div>
+                </div>
+                <div class="section-cta fade-in">
+                    <a href="#contact" class="btn btn-primary">Describe Your Workflow</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">From Workflow to Working Extension</h2>
+                <div class="process-grid">
+                    <div class="process-step fade-in">
+                        <span class="step-number">01</span>
+                        <h3>Tell me the workflow</h3>
+                        <p>Explain what you currently do, what tools you use, and what feels repetitive or unnecessary.</p>
+                    </div>
+                    <div class="process-step fade-in delay-1">
+                        <span class="step-number">02</span>
+                        <h3>I map the solution</h3>
+                        <p>I identify which parts can realistically be handled by a Chrome extension and define the exact scope.</p>
+                    </div>
+                    <div class="process-step fade-in delay-2">
+                        <span class="step-number">03</span>
+                        <h3>Fixed-price development</h3>
+                        <p>You receive a clear scope and fixed project price before development starts.</p>
+                    </div>
+                    <div class="process-step fade-in delay-3">
+                        <span class="step-number">04</span>
+                        <h3>Delivery & maintenance</h3>
+                        <p>You receive the finished extension, installation instructions, and documentation. Future changes are handled separately at an agreed fixed price.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="section bg-secondary">
+            <div class="container text-center">
+                <h2 class="section-title fade-in">Every project is scoped individually</h2>
+                <p class="section-subtitle center fade-in">A simple browser workflow may only require a small extension, while a more complex internal tool may require substantially more work. I define the scope first and provide a fixed project quote before development begins.</p>
+                <a href="#contact" class="btn btn-primary fade-in">Describe Your Project</a>
+            </div>
+        </section>
+
+        <!-- Qualification Section -->
+        <section id="qualification" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Is a Chrome Extension a Good Fit?</h2>
+                <div class="qualification-grid">
+                    <div class="qual-card good fade-in">
+                        <h3>Good fit</h3>
+                        <ul>
+                            <li>You repeat the same browser workflow regularly.</li>
+                            <li>You manually copy information between websites.</li>
+                            <li>You pay for a large SaaS tool but only use a few features.</li>
+                            <li>Your team has a repetitive browser-based process.</li>
+                            <li>You want a lightweight internal browser tool.</li>
+                            <li>You need a workflow customized to your business.</li>
+                        </ul>
+                    </div>
+                    <div class="qual-card bad fade-in delay-1">
+                        <h3>Potentially not a good fit</h3>
+                        <ul>
+                            <li>You need a complete replacement for a large SaaS platform.</li>
+                            <li>The functionality requires extensive backend infrastructure.</li>
+                            <li>The workflow violates the target website's terms or technical restrictions.</li>
+                            <li>The solution requires functionality that Chrome extensions cannot reasonably provide.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Section -->
+        <section id="architecture" class="section bg-secondary">
+            <div class="container text-center">
+                <h2 class="section-title fade-in">Small by Design</h2>
+                <p class="section-subtitle center fade-in">I prefer focused tools over unnecessary infrastructure. When a project can work entirely inside the browser, there may be no reason to introduce a backend, account system, or cloud database.</p>
+                <div class="badges fade-in">
+                    <span class="badge">Local-first when appropriate</span>
+                    <span class="badge">Minimal permissions</span>
+                    <span class="badge">No unnecessary backend</span>
+                    <span class="badge">No unnecessary subscription</span>
+                    <span class="badge">Chrome Manifest V3</span>
+                    <span class="badge">Focused scope</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">About</h2>
+                <p class="about-text fade-in">I build browser tools that solve specific problems.<br><br>My focus is Chrome extensions and browser-based workflows: turning repetitive tasks, research processes, and unnecessary SaaS complexity into focused tools.<br><br>I'm currently building a portfolio of practical extensions while working with founders, creators, freelancers, and businesses that need custom browser software.</p>
+            </div>
+        </section>
+
+        <!-- Post-Contact Expectations -->
+        <section id="expectations" class="section bg-secondary">
+            <div class="container">
+                <h2 class="section-title fade-in">What happens after you contact me?</h2>
+                <ol class="expectations-list fade-in">
+                    <li>You describe the workflow.</li>
+                    <li>I ask a few questions.</li>
+                    <li>I determine whether a Chrome extension makes sense.</li>
+                    <li>We define the exact scope.</li>
+                    <li>You receive a fixed-price quote.</li>
+                    <li>Development begins.</li>
+                    <li>You receive the finished extension and documentation.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <h2 class="section-title">Have a workflow that should be simpler?</h2>
+                        <p class="section-subtitle">Tell me what you currently do, what tools are involved, and what you'd like to change. I'll tell you whether a Chrome extension is a sensible solution.</p>
+                        
+                        <div class="direct-contact">
+                            <h4>Prefer email?</h4>
+                            <a href="mailto:YOUR_EMAIL@example.com" class="text-link">YOUR_EMAIL@example.com</a>
+                            
+                            <h4>Social & Code</h4>
+                            <div class="social-links">
+                                <a href="https://github.com/YOUR_USERNAME" target="_blank">GitHub</a>
+                                <a href="https://twitter.com/YOUR_USERNAME" target="_blank">X / Twitter</a>
+                                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">LinkedIn</a>
+                            </div>
+                        </div>
+
+                        <div class="building-in-public">
+                            <h4>Building in Public</h4>
+                            <p>I share development progress, browser extension experiments, and workflow ideas on X.<br>Follow the build → <a href="https://twitter.com/YOUR_USERNAME" target="_blank">@YOUR_USERNAME</a></p>
+                        </div>
+                    </div>
+                    
+                    <form id="contact-form" class="contact-form fade-in delay-1" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / Website</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="automate">What do you want to automate?</label>
+                            <textarea id="automate" name="automate" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="tool">What tool or website do you currently use?</label>
+                            <input type="text" id="tool" name="tool">
+                        </div>
+                        <div class="form-group">
+                            <label for="frequency">How often do you perform this workflow?</label>
+                            <input type="text" id="frequency" name="frequency" placeholder="e.g., Daily, Weekly, 10 times a day">
+                        </div>
+                        <div class="form-group">
+                            <label for="details">Additional details</label>
+                            <textarea id="details" name="details" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Project Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- GitHub Section -->
+        <section class="section bg-secondary">
+            <div class="container text-center">
+                <h2 class="section-title fade-in">Open-source / Development</h2>
+                <a href="https://github.com/YOUR_USERNAME" target="_blank" class="btn btn-secondary fade-in">View GitHub Profile</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 YOUR NAME. Custom Chrome Extensions & Browser Automation.</p>
+            <a href="#contact" class="btn btn-primary">Start a Project</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

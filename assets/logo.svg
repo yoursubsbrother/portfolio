@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Browser Window -->
+  <rect x="6" y="12" width="52" height="40" rx="4" stroke="#5EEAD4" fill="none"/>
+  <line x1="6" y1="22" x2="58" y2="22" stroke="#5EEAD4"/>
+  <circle cx="12" cy="17" r="1.5" fill="#5EEAD4" stroke="none"/>
+  <circle cx="18" cy="17" r="1.5" fill="#5EEAD4" stroke="none"/>
+  <!-- Extension Block / Cursor -->
+  <path d="M32 30 L42 30 L42 40 L36 40 L36 46 L26 46 L26 36 L32 36 Z" fill="#60A5FA" stroke="none"/>
+</svg>
