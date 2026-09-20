@@ -117,7 +117,8 @@
                             <div class="browser-top"><span></span><span></span><span></span></div>
                             <div class="browser-content">
                                 <!-- Placeholder for actual screenshot -->
-                                <div class="mockup-placeholder">Etsy Research UI Mockup</div>
+                                <img src="./assets/images/extensions/etsy_product_researcher.png" alt="Etsy Product Researcher">                                 
+                               <!-- <div class="mockup-placeholder">Etsy Research UI Mockup</div>-->
                             </div>
                         </div>
                         <div class="project-details">
@@ -133,7 +134,7 @@
                             <p class="future-note"><strong>Future planned:</strong> Product research, <em>estimated sales & revenue</em>, keyword research, trends, growth-rate analysis.</p>
                             <p class="demonstrates"><strong>What this demonstrates:</strong> Browser data extraction · Local research UI · CSV workflows · Chrome extension architecture</p>
                             <div class="project-links">
-                                <a href="#" class="btn btn-secondary">View Etsy Research Demo</a>
+                                <button type="button" class="btn btn-secondary" data-modal-open="etsyDemoModal">View Etsy Research Demo</button>
                                 <a href="#" class="text-link" target="_blank">GitHub Repository →</a>
                             </div>
                         </div>
@@ -149,7 +150,8 @@
                         <div class="project-mockup browser-window">
                             <div class="browser-top"><span></span><span></span><span></span></div>
                             <div class="browser-content">
-                                <div class="mockup-placeholder">Screenshot Annotator UI Mockup</div>
+                                <img src="./assets/images/extensions/twitter.png" alt="Screenshot annontator">
+                               <!--<div class="mockup-placeholder">Screenshot Annotator UI Mockup</div>-->
                             </div>
                         </div>
                         <div class="project-details">
@@ -164,7 +166,7 @@
                             <p class="privacy-note"><strong>100% local-first workflow.</strong> Evidence of ability to build polished, privacy-conscious browser tools.</p>
                             <p class="demonstrates"><strong>What this demonstrates:</strong> Browser APIs · Image manipulation · Local-first architecture · Productivity UX</p>
                             <div class="project-links">
-                                <a href="#" class="btn btn-secondary">View Demo Video</a>
+                                <button type="button" class="btn btn-secondary" data-modal-open="screenshotDemoModal">View Demo Video</button>
                                 <a href="#" class="text-link" target="_blank">GitHub Repository →</a>
                             </div>
                         </div>
@@ -401,6 +403,39 @@
         </div>
     </footer>
 
+        <!-- ===== Video Modal: Etsy Product Researcher ===== -->
+    <div class="modal-overlay" id="etsyDemoModal" role="dialog" aria-modal="true" aria-labelledby="etsyDemoTitle" aria-hidden="true">
+        <div class="modal-container browser-window" role="document">
+            <div class="modal-header browser-top">
+                <div class="modal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <h2 class="modal-title" id="etsyDemoTitle">Etsy Product Researcher — Demo</h2>
+                <button type="button" class="modal-close" data-modal-close aria-label="Close demo video">&times;</button>
+            </div>
+            <div class="modal-body">
+                <video class="modal-video" controls preload="none" playsinline>
+                    <source src="./assets/images/extensions/etsy-product-researcher.mp4" type="video/mp4">
+                    Your browser does not support embedded video. <a href="./assets/images/extensions/etsy_researcher_demo.mp4">Download the demo</a>.
+                </video>
+            </div>
+        </div>
+    </div>
+
+        <!-- ===== Video Modal: Screenshot Annotator ===== -->
+    <div class="modal-overlay" id="screenshotDemoModal" role="dialog" aria-modal="true" aria-labelledby="screenshotDemoTitle" aria-hidden="true">
+        <div class="modal-container browser-window" role="document">
+            <div class="modal-header browser-top">
+                <div class="modal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                <h2 class="modal-title" id="screenshotDemoTitle">Screenshot Annotator — Demo</h2>
+                <button type="button" class="modal-close" data-modal-close aria-label="Close demo video">&times;</button>
+            </div>
+            <div class="modal-body">
+                <video class="modal-video" controls preload="none" playsinline>
+                    <source src="./assets/images/extensions/screenshot_annotator.mp4" type="video/mp4">
+                    Your browser does not support embedded video. <a href="./assets/images/extensions/screenshot_annotator_demo.mp4">Download the demo</a>.
+                </video>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
